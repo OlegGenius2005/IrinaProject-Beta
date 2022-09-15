@@ -225,11 +225,12 @@
     }
     #view-1{
         margin-top: 34.67px;
-        background: url('photo-1.jpg') 50% 0/cover no-repeat;
+        background: url('photo-2.jpg') 50% 0/cover no-repeat;
     }
     #main{
         background: none;
-        padding-top: 50vh;
+        padding-top: 30vh;
+        border-bottom: 2px solid #bcbcbc ;
         
         
     }
@@ -340,9 +341,11 @@
     .educ_buy_h_ones{
         width: 100%;
     }
+    .educ_h1_3{
+        font-size: 7px;
+    }
     .educ_icons img{
-        width: 20px;
-        height: 15px;
+        display: none;
     }
     .achievements_intro{
         font-size: 20px;
@@ -360,5 +363,8 @@
     .footer_icone img{
     height: 20px;
         
+    }
+    .inn{
+        font-size: 10px;
     }
 }
